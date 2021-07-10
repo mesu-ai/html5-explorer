@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        .center {
+
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+
+
+        }
+
+
+
+        .form-1 {
+            width: 60%;
+            padding: 20px;
+
+            border: 2px solid orangered;
+            box-shadow: 6px 8px 5px 10px rgb(133, 151, 133);
+
+        }
+
+        input:hover {
+            color: red;
+
+        }
+
+        button:hover {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="center">
+
+        <form class="form-1" action="">
+            <p>Name:<input type="text" name="" id=""></p>
+            <p>Email:<input type="email" name="" id=""></p>
+
+            <fieldset>
+                <legend>Select Pitha</legend>
+
+
+                <label for="chitoi"><input type="radio" name="pitha" id="chitoi">Chitoi</label><br>
+                <label for="vapa"><input type="radio" name="pitha" id="vapa">Vapa</label><br>
+                <label for="patisapta"><input type="radio" name="pitha" id="patisapta">Patisapta</label><br>
+                <label for="kuli"><input type="radio" name="pitha" id="kuli">Kuli</label><br>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Select Vorta</legend>
+                <label for="sutki"><input type="checkbox" name="vorta" id="sutki">Sutki</label><br>
+                <label for="sorisa"><input type="checkbox" name="vorta" id="sorisa">Sorisa</label><br>
+                <label for="kalazira"><input type="checkbox" name="vorta" id="kalazira">Kalazira</label><br>
+                <label for="begun"><input type="checkbox" name="vorta" id="begun">Begun</label><br>
+            </fieldset>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+
+
+        </form>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media File</title>
+
+    <style>
+        .center {
+            background-color: aliceblue;
+            margin: 20px;
+
+            display: flex;
+            justify-content: center;
+
+            flex-flow: wrap column;
+            align-items: flex-end;
+
+        }
+
+        .border {
+
+            margin: 20px;
+            text-align: center;
+
+
+
+
+            border: 3px solid green;
+            border-radius: 15px;
+            box-shadow: 8px 5px 10px 6px gray;
+
+
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <section class="center">
+
+        <div class="border">
+            <h1>Audio</h1>
+            <audio src="audio/Phoolon Ka.mp3" controls></audio>
+
+        </div>
+        <div class="border">
+            <h2>Video</h2>
+            <video class="center" width="250px" autoplay muted src="" controls></video>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>

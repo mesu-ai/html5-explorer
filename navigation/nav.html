@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+
+    <style>
+        nav>ul {
+
+            display: flex;
+            background-color: orangered;
+            justify-content: center;
+        }
+
+        nav>ul>li {
+
+            list-style-type: none;
+            margin: 20px;
+
+
+        }
+
+        nav>ul>li>a {
+
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: honeydew;
+
+        }
+
+        nav>ul>li>a:hover {
+            background-color: green;
+            color: antiquewhite;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+
+            background-color: orangered;
+            margin-top: 8px;
+            padding: 0;
+
+
+
+        }
+
+        .dropdown li {
+            list-style-type: none;
+            margin-top: 20px;
+
+
+
+
+        }
+
+
+
+        nav>ul>li:hover>ul {
+            display: block;
+
+        }
+
+        .dropdown li a {
+            width: 70px;
+            text-decoration: none;
+            background-color: rgb(13, 172, 150);
+            text-align: center;
+            padding: 10px 15px;
+
+
+
+
+        }
+
+        .dropdown li a:hover {
+            background-color: green;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="a">
+            <ul>
+                <li><a href="">Home</a></li>
+
+                <li class="drop"><a href="">About</a>
+
+                    <ul class="dropdown" style="">
+                        <li><a href="">apple</a></li>
+                        <li><a href="">banana</a></li>
+                        <li><a href="">orange</a></li>
+                        <li><a href="">mango</a></li>
+                    </ul>
+
+                </li>
+
+                <li><a href="">Contact</a></li>
+                <li><a href="">Follow</a></li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+
+</body>
+
+</html>
